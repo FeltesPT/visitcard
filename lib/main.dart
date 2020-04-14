@@ -186,7 +186,7 @@ class AvatarImage extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           shape: BoxShape.circle,
-          // image: DecorationImage(image: AssetImage('assets/profile.png')),
+          image: DecorationImage(image: AssetImage('assets/profile.png')),
         ),
       ),
     );
